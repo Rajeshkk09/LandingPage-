@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+} 
+.main{
+    width:75%;
+    border: 0px red solid;
+    margin: auto;
+}  
+header{
+    width: 100%;
+    min-height: 1406px  ;
+    border: 0px red solid;
+    background: url(../images/headerbg.jpg) 50%  no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.maindiv1{
+    position: relative;
+    width: 100%;
+}
+.logo{
+    width: 120px;
+    position: absolute;
+    top: 80px;
+    right: 450px;
+}
+.sitetitle{
+    width: 400px;
+    position: absolute;
+    top: 80px;
+    right: 10px;
+}
+.maindiv2{
+    border: 0px red solid;
+    width: 100%;
+    height: 448px;
+    border-top: #182d55 14px solid;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0;
+}
+.innerdiv1{
+    width: 800px;
+    height: 100px;
+    margin: auto;
+}
+#menubar{
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+#menubar li{
+    display: inline-block;
+    height: 45px;
+    border-right: 2px #fff solid;
+    
+}
+#menubar li a{
+    text-decoration: underline;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 42px;
+    display: block;
+}
+#menubar li:first-child a{
+    padding-left: 0px;
+}
+#menubar li:last-child a{
+    padding-right: 0px;
+}
+#menubar li:last-child{
+    border-right: none;
+}
+.middle{
+    width: 100%;
+    height: 182px;
+    padding: 40px 0px;
+    background: #182d55 url(../images/helicopters.jpg) no-repeat center center;
+}
+.Aerial-aplicators{
+    width: 100%;
+}
+.inner-ariel{
+    width: 100%;
+    height: 321px;
+    background: url(../images/frameimg1.jpg) 50% no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+}
+.tab-title1{
+    width: 715px;
+    margin: 0px auto;
+    padding-top: 160px;
+    position: relative;
+    border: 0px red solid;
+    display: flex;
+    justify-content: center;
+}
+.tab-title13{
+    width: 748px;
+    margin: 0px auto;
+    padding-top: 160px;
+    position: relative;
+    border: 0px red solid;
+    display: flex;
+}
+.tab-title-a{
+    width: 230px;
+    border-top: #fff 4px solid;
+}
+.tab-title-b{
+    height: 35px;
+    border: #FFF 8px solid;
+    font-family: "times New Roman";
+    font-size: 26px;
+    color: #FFF;
+    font-weight: bold;
+    padding: 0px 10px;
+    text-align: center;
+    float: left;
+    margin-top: -23px;
+}
+.tab-title-c{
+    width: 230px;
+    border-top: #fff 4px solid;
+}
+.blackoverly{
+    width: 100%;
+    height: 321px;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0px;
+}
+.ariel-aplicators-content{
+    width: 98%;
+    font-family: "times New Roman";
+    font-size: 24px;
+    color: #182D55;
+    text-align: center;
+    border: 0px black solid;
+    line-height: 30px; 
+    margin: 100px auto;
+}
+.sectionfan{
+    width: 220px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+.contact-us-top{
+    width: 840px;
+    margin: 0px auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: "times New Roman";
+    font-size: 26px;
+    color: #182D55;
+    text-align: center;
+    line-height: 55px;
+}
+/* helicopter service */
+.inner-ariel-2{
+    width: 100%;
+    height: 321px;
+    background: url(../images/frameimg2.jpg) 50% no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+}
+.inner-ariel-3{
+    width: 100%;
+    height: 321px;
+    background: url(../images/frameimg3.jpg) 50% no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    justify-content: center;
+    background-size: cover;
+   
+}
+.inner-ariel-4{
+    width: 100%;
+    height: 321px;
+    background: url(../images/frameimg4.jpg) 50% no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+}
+.inner-ariel-5{
+    width: 100%;
+    height: 321px;
+    background: url(../images/frameimg5.jpg) 50% no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+}
+.contact-us{
+    width: 840px;
+    margin: 0px auto;
+    margin-top: 100px;
+    font-family: "times New Roman";
+    font-size: 26px;
+    color: #182D55;
+    text-align: center;
+    line-height: 55px;
+    border-bottom: #273b60 2px solid;
+}
+.newlinehight{
+    line-height: 30px;
+    font-family: "times New Roman";
+    font-size: 26px;
+    color: #182D55;
+    text-align: center;
+}
